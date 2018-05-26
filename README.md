@@ -1,6 +1,6 @@
 ![image](https://i.redd.it/n0bxkzn1jpsz.jpg)
 
-## [5 užduoties cookies](https://github.com/brigitac/penkta_uzduotis)
+## [5 užduoties 'cookies'](https://github.com/brigitac/penkta_uzduotis)
 
 ```c++
 ./a.out<text.txt //#1.Stream'as - text.txt failas.
@@ -50,11 +50,11 @@ int main()
 }
 ```
 
-## [4 užduoties cookies](https://github.com/brigitac/Vector)
+## [4 užduoties 'cookies'](https://github.com/brigitac/Vector)
 
 To be soon. 
 
-## [3 užduoties cookies](https://github.com/brigitac/trecia_uzduotis)
+## [3 užduoties 'cookies'](https://github.com/brigitac/trecia_uzduotis)
 
 To be soon. 
 
