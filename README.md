@@ -24,11 +24,15 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-## Jekyll Themes
+## [4 užduotis](https://github.com/brigitac/Vector)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brigitac/brigitac.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-## Support or Contact
+## [3 užduotis](https://github.com/brigitac/trecia_uzduotis)
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## From 0 to 1
+
+![image](http://s1.funon.cc/img/orig/201702/23/58aeacc80ad90.png)
 
