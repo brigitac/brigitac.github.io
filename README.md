@@ -32,7 +32,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-## To sum up? I went from zero 0 to 1
+## [To sum up? I went from zero 0 to 1]()
 
 ![image](http://s1.funon.cc/img/orig/201702/23/58aeacc80ad90.png)
 
