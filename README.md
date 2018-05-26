@@ -1,6 +1,6 @@
 ![image](https://i.redd.it/n0bxkzn1jpsz.jpg)
 
-## [5 užduotis](https://github.com/brigitac/penkta_uzduotis)
+## [5 užduoties cookies :cookie:](https://github.com/brigitac/penkta_uzduotis)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -24,11 +24,11 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-## [4 užduotis](https://github.com/brigitac/Vector)
+## [4 užduoties cookies](https://github.com/brigitac/Vector)
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brigitac/brigitac.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-## [3 užduotis](https://github.com/brigitac/trecia_uzduotis)
+## [3 užduoties cookies](https://github.com/brigitac/trecia_uzduotis)
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
