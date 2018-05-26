@@ -1,6 +1,6 @@
 ![image](https://i.redd.it/n0bxkzn1jpsz.jpg)
 
-## [5 užduoties cookies :cookie:](https://github.com/brigitac/penkta_uzduotis)
+## [5 užduoties cookies](https://github.com/brigitac/penkta_uzduotis)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
