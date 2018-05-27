@@ -56,7 +56,24 @@ To be soon.
 
 ## [3 užduoties 'cookies'](https://github.com/brigitac/trecia_uzduotis)
 
-To be soon. 
+```c++
+int main (int argc, char *argv[]) //#1 argv and argc are command line arguments passed to main(). argc - number of strings pointed to by argv
+{nuskaitymas(argv, studentai);}
+```
+
+```c++
+template<typename T>
+void nuskaitymas(char *argv[], T &studentai)
+{
+    ifstream failas1;
+    failas1.open (argv[1]);
+    studentas stud(failas1); //#2 studentas klases konstruktorius, kuriam paduodu failo stream'ą
+}
+```
+```c++
+studentas::studentas(std::istream& in)
+{in>>pavarde>>vardas;}
+```
 
 ## [To sum up? I went from 0 to 1]()
 
