@@ -1,4 +1,4 @@
-![image](https://i.redd.it/n0bxkzn1jpsz.jpg)
+![image](https://img.memecdn.com/cookies-are-awesome_c_7055861.jpg)
 
 ## [5 užduoties 'cookies'](https://github.com/brigitac/penkta_uzduotis)
 
