@@ -38,7 +38,7 @@ void Vector<T>::assign(T count, const T& value)
 ```
 
 ```c++
-template <typename T> //#1
+template <typename T>
 T* Vector<T>::insert(const T* pos, const T& value)
 {
     T* pos2 = &elem[pos - elem];
