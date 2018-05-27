@@ -104,7 +104,7 @@ int main()
 }
 ```
 
-## [To sum up? I went from 0 to 1]()
+## [To sum up? I went from 0 to 1 in C++]()
 
 ![image](http://s1.funon.cc/img/orig/201702/23/58aeacc80ad90.png)
 
