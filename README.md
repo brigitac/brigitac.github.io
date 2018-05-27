@@ -1,5 +1,59 @@
 ![image](https://i.redd.it/n0bxkzn1jpsz.jpg)
 
+## [3 užduoties 'cookies'](https://github.com/brigitac/trecia_uzduotis)
+
+```c++
+int main (int argc, char *argv[]) //#1 argv and argc are command line arguments passed to main(). argc - number of strings pointed to by argv
+{nuskaitymas(argv, studentai);}
+```
+
+```c++
+template<typename T>
+void nuskaitymas(char *argv[], T &studentai)
+{
+    ifstream failas1;
+    failas1.open (argv[1]);
+    studentas stud(failas1); //#2 studentas klases konstruktorius, kuriam paduodu failo stream'ą
+}
+```
+```c++
+studentas::studentas(std::istream& in)
+{in>>pavarde>>vardas;}
+```
+
+## [4 užduoties 'cookies'](https://github.com/brigitac/Vector)
+
+```c++
+template <typename T> 
+void Vector<T>::assign(T count, const T& value)
+{
+    for (size_t i = 0; i != size_; i++) {allocator.destroy(elem + i);} //#1 std::allocator
+    allocator.deallocate(elem, capacity_);
+    if (count > capacity_)
+    {capacity_ = count;}
+    elem = allocator.allocate(capacity_);
+    std::fill_n(elem,count,value);  //#2 algoritmų naudojimas  
+    size_ = count;
+}
+```
+
+```c++
+template <typename T> //#1
+T* Vector<T>::insert(const T* pos, const T& value)
+{
+    T* pos2 = &elem[pos - elem];
+    if (size_==capacity_)
+    {
+        capacity_=capacity_*2;
+        reserve(capacity_);     
+    }
+    std::copy(pos2-1, pos2+(size_-(pos-elem)), pos2); //#2 algoritmų naudojimas
+    (*pos2) = value;
+    ++size_;
+    return pos2;
+}
+```
+
 ## [5 užduoties 'cookies'](https://github.com/brigitac/penkta_uzduotis)
 
 ```c++
@@ -48,31 +102,6 @@ int main()
         } 
     }
 }
-```
-
-## [4 užduoties 'cookies'](https://github.com/brigitac/Vector)
-
-To be soon. 
-
-## [3 užduoties 'cookies'](https://github.com/brigitac/trecia_uzduotis)
-
-```c++
-int main (int argc, char *argv[]) //#1 argv and argc are command line arguments passed to main(). argc - number of strings pointed to by argv
-{nuskaitymas(argv, studentai);}
-```
-
-```c++
-template<typename T>
-void nuskaitymas(char *argv[], T &studentai)
-{
-    ifstream failas1;
-    failas1.open (argv[1]);
-    studentas stud(failas1); //#2 studentas klases konstruktorius, kuriam paduodu failo stream'ą
-}
-```
-```c++
-studentas::studentas(std::istream& in)
-{in>>pavarde>>vardas;}
 ```
 
 ## [To sum up? I went from 0 to 1]()
