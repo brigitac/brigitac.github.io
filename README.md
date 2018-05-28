@@ -25,7 +25,7 @@ studentas::studentas(std::istream& in)
 
 ```c++
 template <typename T> 
-void Vector<T>::assign(T count, const T& value)
+void Vector<T>::assign(size_type count, const_reference value)
 {
     for (size_t i = 0; i != size_; i++) {allocator.destroy(elem + i);} //#1 std::allocator
     allocator.deallocate(elem, capacity_);
@@ -39,7 +39,7 @@ void Vector<T>::assign(T count, const T& value)
 
 ```c++
 template <typename T>
-T* Vector<T>::insert(const T* pos, const T& value)
+typename Vector<T>::iterator Vector<T>::insert(const_iterator pos, const_reference value)
 {
     T* pos2 = &elem[pos - elem];
     if (size_==capacity_)
