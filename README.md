@@ -20,6 +20,43 @@ void nuskaitymas(char *argv[], T &studentai)
 studentas::studentas(std::istream& in)
 {in>>pavarde>>vardas;}
 ```
+```c++
+template<typename T> //#3 templates!
+void irasykime(std::ostream &failas2, T &studentai)
+{
+    rusiuokime(studentai);
+    typename T::iterator bound = std::stable_partition(studentai.begin(), studentai.end(), check_good);
+    ...
+ }
+```
+```c++
+//main
+if (choice==1)
+{
+    std::vector<studentas>studentai;
+    failai(argv, studentai);
+}
+else if (choice==2)
+{
+    std::list<studentas>studentai;
+    failai(argv, studentai);
+}
+else
+{
+    std::deque<studentas>studentai;
+    failai(argv, studentai);
+}
+```
+```c++
+void rusiuokime(std::vector<studentas>& good)
+{sort(good.begin(), good.end());}
+
+void rusiuokime(std::list<studentas>& good)
+{good.sort();}
+
+void rusiuokime(std::deque<studentas>& good)
+{sort(good.begin(), good.end());}
+```
 
 ## [4 užduoties 'cookies'](https://github.com/brigitac/Vector)
 
