@@ -1,6 +1,4 @@
-![image](https://i.redd.it/n0bxkzn1jpsz.jpg)
-
-## [3 užduoties 'cookies'](https://github.com/brigitac/trecia_uzduotis)
+## [3 užduotis](https://github.com/brigitac/trecia_uzduotis)
 
 ```c++
 int main (int argc, char *argv[]) //#1 argv and argc are command line arguments passed to main(). argc - number of strings pointed to by argv
@@ -58,7 +56,7 @@ void rusiuokime(std::deque<studentas>& good)
 {sort(good.begin(), good.end());}
 ```
 
-## [4 užduoties 'cookies'](https://github.com/brigitac/Vector)
+## [4 užduotis](https://github.com/brigitac/Vector)
 
 ```c++
 template <typename T> 
@@ -91,7 +89,7 @@ typename Vector<T>::iterator Vector<T>::insert(const_iterator pos, const_referen
 }
 ```
 
-## [5 užduoties 'cookies'](https://github.com/brigitac/penkta_uzduotis)
+## [5 užduotis](https://github.com/brigitac/penkta_uzduotis)
 
 ```c++
 ./a.out<text.txt //#1.Stream'as - text.txt failas.
@@ -140,8 +138,4 @@ int main()
     }
 }
 ```
-
-## [To sum up? I went from 0 to 1 in C++]()
-
-![image](http://s1.funon.cc/img/orig/201702/23/58aeacc80ad90.png)
 
